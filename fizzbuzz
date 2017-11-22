@@ -1,3 +1,4 @@
+# with if condition
 #for i in range(1, 101):
 #    if i % 15 == 0 :
 #        print("fizzbuzz")
@@ -8,6 +9,7 @@
 #    else :
 #        print(i)
 
+# without 'if' condition
 for i in range(1, 101): print("fizz" * (i % 3 == 0) + "buzz" * (i % 5 ==0) or i)
 
 
